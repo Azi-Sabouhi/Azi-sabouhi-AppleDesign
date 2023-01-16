@@ -1,0 +1,30 @@
+/* body {
+    background-image: url("../images/body-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box; 
+    overflow: hidden;
+} */
+
+*/ .txt-deco {
+    text-decoration: none;
+
+}
+
+.a-line:hover {
+    text-decoration: underline;
+}
+
+/* ?????????????????????????????????????????????????????????? */
+/* .img12 {
+    background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.img-si {
+    transform: scale(2.2);
+
+}
