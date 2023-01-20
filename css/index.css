@@ -146,6 +146,68 @@ li {
     background-size: 1262px 580px;
 }
 
+.bg-box7 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 6px 0px 12px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo_iphone14pro__4n4twj56fzmu_large_2x1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box8 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 12px 0px 6px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo_iphone14__b9mz75yhy02u_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box9 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 6px 0px 12px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo__sw58lbodkmqq_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box10 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 12px 0px 6px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/tile__cauwwcyyn9hy_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+
+#red-a {
+    text-decoration: none;
+}
+
+#red-a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .dv2d {
     /* height: 180px; */
     margin-top: 50px;
@@ -156,11 +218,29 @@ li {
     margin-bottom: 10px;
 }
 
+.img-logo-s1 {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.letter-s {
+    letter-spacing: 1px;
+}
+
 .heading-property {
     font-size: 40px;
     text-align: center;
     font-weight: 600;
 }
+
+.custom-button {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    color: black;
+
+}
+
+
 
 /* ************************************************************************************************ */
 @media all and (max-width: 575px) {}
