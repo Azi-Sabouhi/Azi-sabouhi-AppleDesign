@@ -240,7 +240,22 @@ li {
 
 }
 
+.custom-color-nav {
+    color: white;
+}
 
+.footer-height {
+    height: 705px;
+}
+
+.ul-prop1 {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.li-margint {
+    margin-top: 10px;
+}
 
 /* ************************************************************************************************ */
 @media all and (max-width: 575px) {}
