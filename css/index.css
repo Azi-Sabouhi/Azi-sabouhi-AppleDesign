@@ -3,11 +3,25 @@
     background-color: black;
 }
 
-#navbarNav1 {
+.navbarNav1 {
     height: 44px;
     line-height: 44px;
     padding: 0;
 }
+
+.navfont {
+    font-size: calc(8px + 0.3vw);
+}
+
+.navBgCustom {
+    background-color: rgba(0, 0, 0, 0.88);
+    /* filter: blur(2px); */
+}
+
+.navBgCustom2 {
+    filter: blur(2px);
+}
+
 
 .padding0 {
     padding: 0;
@@ -46,11 +60,12 @@ li {
 }
 
 .fonts1 {
-    font-size: 56px;
+    /* font-size: 56px; */
     font-weight: 700;
     background: -webkit-linear-gradient(0deg, #6a5578 0%, #99bfd8 50%, #41587a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 3vh;
 }
 
 .dv2 {
@@ -70,7 +85,7 @@ li {
 
 .box1-part3 {
     color: rgb(110, 110, 115);
-    font-size: 21px;
+    /* font-size: calc(12px + 1vw); */
 }
 
 .bluelink {
@@ -245,7 +260,7 @@ li {
 }
 
 .footer-height {
-    height: 705px;
+    /* height: 705px; */
 }
 
 .ul-prop1 {
@@ -257,15 +272,55 @@ li {
     margin-top: 10px;
 }
 
+.listcustomB2 {
+    list-style-type: none;
+    font-size: calc(8px + 0.4vw);
+}
+
+.listcustomB2 li {
+    padding: 4px;
+}
+
+.listcustomB2 a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
 /* ************************************************************************************************ */
-@media all and (max-width: 575px) {}
+@media all and (max-width: 575px) {
+    .fonts1 {
+        font-size: 38px;
+    }
+}
 
-@media all and (min-width:576px) and (max-width: 767px) {}
+@media all and (min-width:576px) and (max-width: 767px) {
+    .fonts1 {
+        font-size: 42px;
+    }
 
-@media all and (min-width:678px) and (max-width: 991px) {}
+    /* footer adjustment */
 
-@media all and (min-width:992px) and (max-width: 1199px) {}
 
-@media all and (min-width:1200px) and (max-width: 1399px) {}
+    @media all and (min-width:678px) and (max-width: 991px) {
+        .fonts1 {
+            font-size: 54px;
+        }
+    }
 
-@media all and (min-width:1400px) {}
+    @media all and (min-width:992px) and (max-width: 1199px) {
+        .fonts1 {
+            font-size: 56px;
+        }
+    }
+
+    @media all and (min-width:1200px) and (max-width: 1399px) {
+        .fonts1 {
+            font-size: 58px;
+        }
+    }
+
+    @media all and (min-width:1400px) {
+        .fonts1 {
+            font-size: 58px;
+        }
+    }
